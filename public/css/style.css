@@ -1,0 +1,110 @@
+body{
+    background-color: #001240;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #fff;
+}
+
+.userLogo{
+    height: 110%;
+    width: auto;
+}
+
+.userDetails{
+    background-color: #00a7db;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+
+.userDetails h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+.userDetails h1 span{
+    margin: 0;
+    display: inline-block;
+}
+
+.home{
+    background-color: #00C1EA;
+}
+
+.projects{
+    background-color: #94D401;
+}
+
+.contactMe{
+    background-color: #61B100;
+}
+
+.services{
+    background-color: #61B;
+}
+
+.about{
+    background-color: aquamarine;
+}
+
+.home, 
+.projects,
+.services,
+.contactMe,
+.about, 
+.contacts{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contacts ion-icon,
+.about ion-icon,
+.contactMe ion-icon,
+.services{
+    font-size: 35px;
+}
+
+.footer{
+    background-color: #001240;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.webdevphoto{
+    height: 150px;
+    width: auto;
+}
+
+.mobileappphoto{
+    height: 150px;
+    width: auto;
+}
+
+.codingphoto{
+    height: 150px;
+    width: auto;
+}
+
+.kathyphoto{
+    height: 150px;
+    width: auto;
+}

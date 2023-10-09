@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Kathy Xu Portfolio HomePage</title>
+<title>Kathy Xu Contact Me HomePage</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +24,14 @@
         <span>Senior Software Engineering Technology Student</span>
     </div>
     <div class="home">
-        <ion-icon name="school"></ion-icon>
+    <a href="/">
+  <ion-icon name="school"></ion-icon>
+    </a>
     </div>
     <div class="about">
-        <ion-icon name="person"></ion-icon>
+    <a href="/about">
+  <ion-icon name="person"></ion-icon>
+    </a>
     </div>
     <div class="projects">
         <ion-icon name="folder-open"></ion-icon>
@@ -40,13 +44,15 @@
     </div>
     </nav>
     <div class="body">
-    <h1>Hello!</h1>
-    <img class="Kathy Xu" src="/images/Kathy" alt="Kathy Xu Profile Photo">
-    <h2>My name is Kathy.</h2>
-    <h2>I am currently a third year software engineering technology student at Centennial College.</h2>
-    <h2>Recently I completed my co-op placement with Ministry of Community and Social Services(MCCSS).</h2>
-    <h2>I will be graduating in April 2024</h2>
-    <h2>Please feel free to contact me or explore my website!</h2>
+<h1>Contact Us</h1>
+<form action="/submit" method="post">
+  <label for="firstName">First Name</label>
+  <input type="text" id="firstName" name="firstName" required>
+
+  <!-- Add fields for Last Name, Contact Number, Email Address, and Message -->
+
+  <button type="submit">Submit</button>
+</form>
     <br>
 <footer>
     <h6>&copy;&nbsp;Copyright Kathy Xu - 2023</h6>
